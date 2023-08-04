@@ -10,8 +10,10 @@ meta_data_collected = pd.read_excel('MetaTest.xlsx')
 # Creating list to append tweet data
 tweets_list = []
 # Enter Start Date & End Date
-start_Date = datetime.date(2022, 1, 1)
-end_Date = datetime.date(2022, 6, 3)
+start_Date = datetime.date(2020, 1, 1)
+end_Date = datetime.date(2022, 6, 30)
+
+
 # Part II: Transform Pd Dataframe to Congress by using "row_to_congressmember"
 
 for j in range(len(meta_data_collected)):
